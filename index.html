@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Validador de Planilha</title>
+  <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header"><h1>ANÁLISE DE CONSISTÊNCIA DE VALORES - </h1> </div>
+    <div class="image"><img src="AMPLIMEDLOGO.png" alt="logo da amplimed"></div>
+    <img src="logotipo libelle.png" alt="Logo casa libelle" class="logo-libelle">
+</div>
+    <div class="input-div">
+        <label class="file-label">
+            <input type="file" id="upload" class="file-input" />
+            <span class="file-button">📁 Escolher arquivo</span> <span id="file-name"></span>
+        </label>
+    </div>
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
